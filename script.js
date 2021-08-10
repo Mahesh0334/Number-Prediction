@@ -94,7 +94,7 @@ document.querySelector('.again').addEventListener('click', function () {
   score = 10;
   secretNumber = Math.trunc(Math.random() * 25) + 1;
   // guess = Number(document.querySelector('.guess').value='';
-  document.querySelector('body').style.backgroundColor = '#222222';
+  document.querySelector('body').style.backgroundColor = '#75a2aa96';
   // document.querySelector('.message').textContent = 'Start guessing..';
   displayMsg(`🤔 Start guessing`);
   // document.querySelector('.number').textContent = secretNumber;
